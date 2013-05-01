@@ -10,7 +10,14 @@ Installation
 
 You can copy the source code into your Xcode project, or make a git sub-project. This is an ARC project so if you aren't using ARC you're going to need to add your release and auto-release calls.
 
-Be sure to look in the sampleCode folder for Xcode projects that use these utilities.
+
+Usage
+=========
+
+There is doxygen documentation in the doxygen folder as well as online at http://enkilabs.com/EnkiUtils/index.html
+
+Also, be sure to look in the sampleCode folder for Xcode projects that use these utilities.
+
 
 License
 =========
