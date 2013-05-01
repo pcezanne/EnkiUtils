@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA29D6C6170B6CAD0069628A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA29D6C5170B6CAD0069628A /* UIKit.framework */; };
+		AA29D6C8170B6CAD0069628A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA29D6C7170B6CAD0069628A /* Foundation.framework */; };
+		AA29D6CA170B6CAD0069628A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA29D6C9170B6CAD0069628A /* CoreGraphics.framework */; };
+		AA29D6D0170B6CAD0069628A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA29D6CE170B6CAD0069628A /* InfoPlist.strings */; };
+		AA29D6D2170B6CAD0069628A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D6D1170B6CAD0069628A /* main.m */; };
+		AA29D6D6170B6CAD0069628A /* MAWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D6D5170B6CAD0069628A /* MAWAppDelegate.m */; };
+		AA29D6D8170B6CAD0069628A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29D6D7170B6CAD0069628A /* Default.png */; };
+		AA29D6DA170B6CAD0069628A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29D6D9170B6CAD0069628A /* Default@2x.png */; };
+		AA29D6DC170B6CAD0069628A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA29D6DB170B6CAD0069628A /* Default-568h@2x.png */; };
+		AA29D6EE170B6E920069628A /* MAWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D6ED170B6E920069628A /* MAWBaseViewController.m */; };
+		AA29D6F7170B6ED90069628A /* MAWJump1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D6F5170B6ED90069628A /* MAWJump1ViewController.m */; };
+		AA29D6F8170B6ED90069628A /* MAWJump1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D6F6170B6ED90069628A /* MAWJump1ViewController.xib */; };
+		AA29D6FC170B710F0069628A /* MAWJump2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D6FA170B710F0069628A /* MAWJump2ViewController.m */; };
+		AA29D6FD170B710F0069628A /* MAWJump2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D6FB170B710F0069628A /* MAWJump2ViewController.xib */; };
+		AA29D701170B713F0069628A /* MAWJump3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D6FF170B713F0069628A /* MAWJump3ViewController.m */; };
+		AA29D702170B713F0069628A /* MAWJump3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D700170B713F0069628A /* MAWJump3ViewController.xib */; };
+		AA29D706170B715D0069628A /* MAWJump4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D704170B715D0069628A /* MAWJump4ViewController.m */; };
+		AA29D707170B715D0069628A /* MAWJump4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D705170B715D0069628A /* MAWJump4ViewController.xib */; };
+		AA29D70B170B72650069628A /* MAWJump5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D709170B72650069628A /* MAWJump5ViewController.m */; };
+		AA29D70C170B72650069628A /* MAWJump5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D70A170B72650069628A /* MAWJump5ViewController.xib */; };
+		AA5B54A6172EF73600793BED /* EnkiUnorderedController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B5499172EF73600793BED /* EnkiUnorderedController.m */; };
+		AA5B54A7172EF73600793BED /* EnkiUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B549B172EF73600793BED /* EnkiUtilities.m */; };
+		AA5B54A8172EF73600793BED /* NSString+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B549D172EF73600793BED /* NSString+EnkiUtils.m */; };
+		AA5B54A9172EF73600793BED /* UIImage+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B549F172EF73600793BED /* UIImage+EnkiUtils.m */; };
+		AA5B54AA172EF73600793BED /* UILabel+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B54A1172EF73600793BED /* UILabel+EnkiUtils.m */; };
+		AA5B54AB172EF73600793BED /* UINavigationController+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B54A3172EF73600793BED /* UINavigationController+EnkiUtils.m */; };
+		AA5B54AC172EF73600793BED /* UIScreen+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B54A5172EF73600793BED /* UIScreen+EnkiUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA29D6C2170B6CAD0069628A /* Might As Well.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Might As Well.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA29D6C5170B6CAD0069628A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA29D6C7170B6CAD0069628A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA29D6C9170B6CAD0069628A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA29D6CD170B6CAD0069628A /* Might As Well-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Might As Well-Info.plist"; sourceTree = "<group>"; };
+		AA29D6CF170B6CAD0069628A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA29D6D1170B6CAD0069628A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA29D6D3170B6CAD0069628A /* Might As Well-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Might As Well-Prefix.pch"; sourceTree = "<group>"; };
+		AA29D6D4170B6CAD0069628A /* MAWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAWAppDelegate.h; sourceTree = "<group>"; };
+		AA29D6D5170B6CAD0069628A /* MAWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAWAppDelegate.m; sourceTree = "<group>"; };
+		AA29D6D7170B6CAD0069628A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA29D6D9170B6CAD0069628A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA29D6DB170B6CAD0069628A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA29D6EC170B6E920069628A /* MAWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWBaseViewController.h; sourceTree = "<group>"; };
+		AA29D6ED170B6E920069628A /* MAWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWBaseViewController.m; sourceTree = "<group>"; };
+		AA29D6F4170B6ED90069628A /* MAWJump1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWJump1ViewController.h; sourceTree = "<group>"; };
+		AA29D6F5170B6ED90069628A /* MAWJump1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWJump1ViewController.m; sourceTree = "<group>"; };
+		AA29D6F6170B6ED90069628A /* MAWJump1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAWJump1ViewController.xib; sourceTree = "<group>"; };
+		AA29D6F9170B710F0069628A /* MAWJump2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWJump2ViewController.h; sourceTree = "<group>"; };
+		AA29D6FA170B710F0069628A /* MAWJump2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWJump2ViewController.m; sourceTree = "<group>"; };
+		AA29D6FB170B710F0069628A /* MAWJump2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAWJump2ViewController.xib; sourceTree = "<group>"; };
+		AA29D6FE170B713F0069628A /* MAWJump3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWJump3ViewController.h; sourceTree = "<group>"; };
+		AA29D6FF170B713F0069628A /* MAWJump3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWJump3ViewController.m; sourceTree = "<group>"; };
+		AA29D700170B713F0069628A /* MAWJump3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAWJump3ViewController.xib; sourceTree = "<group>"; };
+		AA29D703170B715D0069628A /* MAWJump4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWJump4ViewController.h; sourceTree = "<group>"; };
+		AA29D704170B715D0069628A /* MAWJump4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWJump4ViewController.m; sourceTree = "<group>"; };
+		AA29D705170B715D0069628A /* MAWJump4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAWJump4ViewController.xib; sourceTree = "<group>"; };
+		AA29D708170B72640069628A /* MAWJump5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWJump5ViewController.h; sourceTree = "<group>"; };
+		AA29D709170B72650069628A /* MAWJump5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWJump5ViewController.m; sourceTree = "<group>"; };
+		AA29D70A170B72650069628A /* MAWJump5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAWJump5ViewController.xib; sourceTree = "<group>"; };
+		AA5B5498172EF73600793BED /* EnkiUnorderedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkiUnorderedController.h; path = ../../../src/EnkiUnorderedController.h; sourceTree = "<group>"; };
+		AA5B5499172EF73600793BED /* EnkiUnorderedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkiUnorderedController.m; path = ../../../src/EnkiUnorderedController.m; sourceTree = "<group>"; };
+		AA5B549A172EF73600793BED /* EnkiUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkiUtilities.h; path = ../../../src/EnkiUtilities.h; sourceTree = "<group>"; };
+		AA5B549B172EF73600793BED /* EnkiUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkiUtilities.m; path = ../../../src/EnkiUtilities.m; sourceTree = "<group>"; };
+		AA5B549C172EF73600793BED /* NSString+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+EnkiUtils.h"; path = "../../../src/NSString+EnkiUtils.h"; sourceTree = "<group>"; };
+		AA5B549D172EF73600793BED /* NSString+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+EnkiUtils.m"; path = "../../../src/NSString+EnkiUtils.m"; sourceTree = "<group>"; };
+		AA5B549E172EF73600793BED /* UIImage+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+EnkiUtils.h"; path = "../../../src/UIImage+EnkiUtils.h"; sourceTree = "<group>"; };
+		AA5B549F172EF73600793BED /* UIImage+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+EnkiUtils.m"; path = "../../../src/UIImage+EnkiUtils.m"; sourceTree = "<group>"; };
+		AA5B54A0172EF73600793BED /* UILabel+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+EnkiUtils.h"; path = "../../../src/UILabel+EnkiUtils.h"; sourceTree = "<group>"; };
+		AA5B54A1172EF73600793BED /* UILabel+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+EnkiUtils.m"; path = "../../../src/UILabel+EnkiUtils.m"; sourceTree = "<group>"; };
+		AA5B54A2172EF73600793BED /* UINavigationController+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+EnkiUtils.h"; path = "../../../src/UINavigationController+EnkiUtils.h"; sourceTree = "<group>"; };
+		AA5B54A3172EF73600793BED /* UINavigationController+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+EnkiUtils.m"; path = "../../../src/UINavigationController+EnkiUtils.m"; sourceTree = "<group>"; };
+		AA5B54A4172EF73600793BED /* UIScreen+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+EnkiUtils.h"; path = "../../../src/UIScreen+EnkiUtils.h"; sourceTree = "<group>"; };
+		AA5B54A5172EF73600793BED /* UIScreen+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+EnkiUtils.m"; path = "../../../src/UIScreen+EnkiUtils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA29D6BF170B6CAD0069628A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA29D6C6170B6CAD0069628A /* UIKit.framework in Frameworks */,
+				AA29D6C8170B6CAD0069628A /* Foundation.framework in Frameworks */,
+				AA29D6CA170B6CAD0069628A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA29D6B9170B6CAD0069628A = {
+			isa = PBXGroup;
+			children = (
+				AA5B5496172EF6DD00793BED /* externals */,
+				AA29D6CB170B6CAD0069628A /* Might As Well */,
+				AA29D6C4170B6CAD0069628A /* Frameworks */,
+				AA29D6C3170B6CAD0069628A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA29D6C3170B6CAD0069628A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA29D6C2170B6CAD0069628A /* Might As Well.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA29D6C4170B6CAD0069628A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA29D6C5170B6CAD0069628A /* UIKit.framework */,
+				AA29D6C7170B6CAD0069628A /* Foundation.framework */,
+				AA29D6C9170B6CAD0069628A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA29D6CB170B6CAD0069628A /* Might As Well */ = {
+			isa = PBXGroup;
+			children = (
+				AA29D6D4170B6CAD0069628A /* MAWAppDelegate.h */,
+				AA29D6D5170B6CAD0069628A /* MAWAppDelegate.m */,
+				AA29D6CC170B6CAD0069628A /* Supporting Files */,
+				AA29D6EC170B6E920069628A /* MAWBaseViewController.h */,
+				AA29D6ED170B6E920069628A /* MAWBaseViewController.m */,
+				AA29D6F4170B6ED90069628A /* MAWJump1ViewController.h */,
+				AA29D6F5170B6ED90069628A /* MAWJump1ViewController.m */,
+				AA29D6F6170B6ED90069628A /* MAWJump1ViewController.xib */,
+				AA29D6F9170B710F0069628A /* MAWJump2ViewController.h */,
+				AA29D6FA170B710F0069628A /* MAWJump2ViewController.m */,
+				AA29D6FB170B710F0069628A /* MAWJump2ViewController.xib */,
+				AA29D6FE170B713F0069628A /* MAWJump3ViewController.h */,
+				AA29D6FF170B713F0069628A /* MAWJump3ViewController.m */,
+				AA29D700170B713F0069628A /* MAWJump3ViewController.xib */,
+				AA29D703170B715D0069628A /* MAWJump4ViewController.h */,
+				AA29D704170B715D0069628A /* MAWJump4ViewController.m */,
+				AA29D705170B715D0069628A /* MAWJump4ViewController.xib */,
+				AA29D708170B72640069628A /* MAWJump5ViewController.h */,
+				AA29D709170B72650069628A /* MAWJump5ViewController.m */,
+				AA29D70A170B72650069628A /* MAWJump5ViewController.xib */,
+			);
+			path = "Might As Well";
+			sourceTree = "<group>";
+		};
+		AA29D6CC170B6CAD0069628A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA29D6CD170B6CAD0069628A /* Might As Well-Info.plist */,
+				AA29D6CE170B6CAD0069628A /* InfoPlist.strings */,
+				AA29D6D1170B6CAD0069628A /* main.m */,
+				AA29D6D3170B6CAD0069628A /* Might As Well-Prefix.pch */,
+				AA29D6D7170B6CAD0069628A /* Default.png */,
+				AA29D6D9170B6CAD0069628A /* Default@2x.png */,
+				AA29D6DB170B6CAD0069628A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5B5496172EF6DD00793BED /* externals */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B5497172EF6E700793BED /* EnkiUtils */,
+			);
+			name = externals;
+			sourceTree = "<group>";
+		};
+		AA5B5497172EF6E700793BED /* EnkiUtils */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B5498172EF73600793BED /* EnkiUnorderedController.h */,
+				AA5B5499172EF73600793BED /* EnkiUnorderedController.m */,
+				AA5B549A172EF73600793BED /* EnkiUtilities.h */,
+				AA5B549B172EF73600793BED /* EnkiUtilities.m */,
+				AA5B549C172EF73600793BED /* NSString+EnkiUtils.h */,
+				AA5B549D172EF73600793BED /* NSString+EnkiUtils.m */,
+				AA5B549E172EF73600793BED /* UIImage+EnkiUtils.h */,
+				AA5B549F172EF73600793BED /* UIImage+EnkiUtils.m */,
+				AA5B54A0172EF73600793BED /* UILabel+EnkiUtils.h */,
+				AA5B54A1172EF73600793BED /* UILabel+EnkiUtils.m */,
+				AA5B54A2172EF73600793BED /* UINavigationController+EnkiUtils.h */,
+				AA5B54A3172EF73600793BED /* UINavigationController+EnkiUtils.m */,
+				AA5B54A4172EF73600793BED /* UIScreen+EnkiUtils.h */,
+				AA5B54A5172EF73600793BED /* UIScreen+EnkiUtils.m */,
+			);
+			name = EnkiUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA29D6C1170B6CAD0069628A /* Might As Well */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA29D6E5170B6CAD0069628A /* Build configuration list for PBXNativeTarget "Might As Well" */;
+			buildPhases = (
+				AA29D6BE170B6CAD0069628A /* Sources */,
+				AA29D6BF170B6CAD0069628A /* Frameworks */,
+				AA29D6C0170B6CAD0069628A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Might As Well";
+			productName = "Might As Well";
+			productReference = AA29D6C2170B6CAD0069628A /* Might As Well.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA29D6BA170B6CAD0069628A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Enki Labs";
+			};
+			buildConfigurationList = AA29D6BD170B6CAD0069628A /* Build configuration list for PBXProject "Might As Well" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA29D6B9170B6CAD0069628A;
+			productRefGroup = AA29D6C3170B6CAD0069628A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA29D6C1170B6CAD0069628A /* Might As Well */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA29D6C0170B6CAD0069628A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA29D6D0170B6CAD0069628A /* InfoPlist.strings in Resources */,
+				AA29D6D8170B6CAD0069628A /* Default.png in Resources */,
+				AA29D6DA170B6CAD0069628A /* Default@2x.png in Resources */,
+				AA29D6DC170B6CAD0069628A /* Default-568h@2x.png in Resources */,
+				AA29D6F8170B6ED90069628A /* MAWJump1ViewController.xib in Resources */,
+				AA29D6FD170B710F0069628A /* MAWJump2ViewController.xib in Resources */,
+				AA29D702170B713F0069628A /* MAWJump3ViewController.xib in Resources */,
+				AA29D707170B715D0069628A /* MAWJump4ViewController.xib in Resources */,
+				AA29D70C170B72650069628A /* MAWJump5ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA29D6BE170B6CAD0069628A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA29D6D2170B6CAD0069628A /* main.m in Sources */,
+				AA29D6D6170B6CAD0069628A /* MAWAppDelegate.m in Sources */,
+				AA29D6EE170B6E920069628A /* MAWBaseViewController.m in Sources */,
+				AA29D6F7170B6ED90069628A /* MAWJump1ViewController.m in Sources */,
+				AA29D6FC170B710F0069628A /* MAWJump2ViewController.m in Sources */,
+				AA29D701170B713F0069628A /* MAWJump3ViewController.m in Sources */,
+				AA29D706170B715D0069628A /* MAWJump4ViewController.m in Sources */,
+				AA29D70B170B72650069628A /* MAWJump5ViewController.m in Sources */,
+				AA5B54A6172EF73600793BED /* EnkiUnorderedController.m in Sources */,
+				AA5B54A7172EF73600793BED /* EnkiUtilities.m in Sources */,
+				AA5B54A8172EF73600793BED /* NSString+EnkiUtils.m in Sources */,
+				AA5B54A9172EF73600793BED /* UIImage+EnkiUtils.m in Sources */,
+				AA5B54AA172EF73600793BED /* UILabel+EnkiUtils.m in Sources */,
+				AA5B54AB172EF73600793BED /* UINavigationController+EnkiUtils.m in Sources */,
+				AA5B54AC172EF73600793BED /* UIScreen+EnkiUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA29D6CE170B6CAD0069628A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA29D6CF170B6CAD0069628A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA29D6E3170B6CAD0069628A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA29D6E4170B6CAD0069628A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA29D6E6170B6CAD0069628A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Might As Well/Might As Well-Prefix.pch";
+				INFOPLIST_FILE = "Might As Well/Might As Well-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA29D6E7170B6CAD0069628A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Might As Well/Might As Well-Prefix.pch";
+				INFOPLIST_FILE = "Might As Well/Might As Well-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA29D6BD170B6CAD0069628A /* Build configuration list for PBXProject "Might As Well" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA29D6E3170B6CAD0069628A /* Debug */,
+				AA29D6E4170B6CAD0069628A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA29D6E5170B6CAD0069628A /* Build configuration list for PBXNativeTarget "Might As Well" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA29D6E6170B6CAD0069628A /* Debug */,
+				AA29D6E7170B6CAD0069628A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA29D6BA170B6CAD0069628A /* Project object */;
+}
