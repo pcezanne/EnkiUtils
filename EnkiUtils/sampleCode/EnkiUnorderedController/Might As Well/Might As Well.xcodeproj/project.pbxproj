@@ -27,14 +27,24 @@
 		AA29D707170B715D0069628A /* MAWJump4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D705170B715D0069628A /* MAWJump4ViewController.xib */; };
 		AA29D70B170B72650069628A /* MAWJump5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29D709170B72650069628A /* MAWJump5ViewController.m */; };
 		AA29D70C170B72650069628A /* MAWJump5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA29D70A170B72650069628A /* MAWJump5ViewController.xib */; };
-		AA5B54A6172EF73600793BED /* EnkiUnorderedController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B5499172EF73600793BED /* EnkiUnorderedController.m */; };
-		AA5B54A7172EF73600793BED /* EnkiUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B549B172EF73600793BED /* EnkiUtilities.m */; };
-		AA5B54A8172EF73600793BED /* NSString+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B549D172EF73600793BED /* NSString+EnkiUtils.m */; };
-		AA5B54A9172EF73600793BED /* UIImage+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B549F172EF73600793BED /* UIImage+EnkiUtils.m */; };
-		AA5B54AA172EF73600793BED /* UILabel+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B54A1172EF73600793BED /* UILabel+EnkiUtils.m */; };
-		AA5B54AB172EF73600793BED /* UINavigationController+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B54A3172EF73600793BED /* UINavigationController+EnkiUtils.m */; };
-		AA5B54AC172EF73600793BED /* UIScreen+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B54A5172EF73600793BED /* UIScreen+EnkiUtils.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5B553317415F2900793BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5B552F17415F2900793BED /* EnkiUtilsFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA5B54F3174155C300793BED;
+			remoteInfo = EnkiUtils;
+		};
+		AA5B55391741604400793BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5B552F17415F2900793BED /* EnkiUtilsFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5B54F2174155C300793BED;
+			remoteInfo = EnkiUtils;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AA29D6C2170B6CAD0069628A /* Might As Well.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Might As Well.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,20 +77,7 @@
 		AA29D708170B72640069628A /* MAWJump5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWJump5ViewController.h; sourceTree = "<group>"; };
 		AA29D709170B72650069628A /* MAWJump5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWJump5ViewController.m; sourceTree = "<group>"; };
 		AA29D70A170B72650069628A /* MAWJump5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAWJump5ViewController.xib; sourceTree = "<group>"; };
-		AA5B5498172EF73600793BED /* EnkiUnorderedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkiUnorderedController.h; path = ../../../src/EnkiUnorderedController.h; sourceTree = "<group>"; };
-		AA5B5499172EF73600793BED /* EnkiUnorderedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkiUnorderedController.m; path = ../../../src/EnkiUnorderedController.m; sourceTree = "<group>"; };
-		AA5B549A172EF73600793BED /* EnkiUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkiUtilities.h; path = ../../../src/EnkiUtilities.h; sourceTree = "<group>"; };
-		AA5B549B172EF73600793BED /* EnkiUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkiUtilities.m; path = ../../../src/EnkiUtilities.m; sourceTree = "<group>"; };
-		AA5B549C172EF73600793BED /* NSString+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+EnkiUtils.h"; path = "../../../src/NSString+EnkiUtils.h"; sourceTree = "<group>"; };
-		AA5B549D172EF73600793BED /* NSString+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+EnkiUtils.m"; path = "../../../src/NSString+EnkiUtils.m"; sourceTree = "<group>"; };
-		AA5B549E172EF73600793BED /* UIImage+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+EnkiUtils.h"; path = "../../../src/UIImage+EnkiUtils.h"; sourceTree = "<group>"; };
-		AA5B549F172EF73600793BED /* UIImage+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+EnkiUtils.m"; path = "../../../src/UIImage+EnkiUtils.m"; sourceTree = "<group>"; };
-		AA5B54A0172EF73600793BED /* UILabel+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+EnkiUtils.h"; path = "../../../src/UILabel+EnkiUtils.h"; sourceTree = "<group>"; };
-		AA5B54A1172EF73600793BED /* UILabel+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+EnkiUtils.m"; path = "../../../src/UILabel+EnkiUtils.m"; sourceTree = "<group>"; };
-		AA5B54A2172EF73600793BED /* UINavigationController+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+EnkiUtils.h"; path = "../../../src/UINavigationController+EnkiUtils.h"; sourceTree = "<group>"; };
-		AA5B54A3172EF73600793BED /* UINavigationController+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+EnkiUtils.m"; path = "../../../src/UINavigationController+EnkiUtils.m"; sourceTree = "<group>"; };
-		AA5B54A4172EF73600793BED /* UIScreen+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+EnkiUtils.h"; path = "../../../src/UIScreen+EnkiUtils.h"; sourceTree = "<group>"; };
-		AA5B54A5172EF73600793BED /* UIScreen+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+EnkiUtils.m"; path = "../../../src/UIScreen+EnkiUtils.m"; sourceTree = "<group>"; };
+		AA5B552F17415F2900793BED /* EnkiUtilsFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EnkiUtilsFramework.xcodeproj; path = ../../../EnkiUtilsFramework/EnkiUtilsFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +97,10 @@
 		AA29D6B9170B6CAD0069628A = {
 			isa = PBXGroup;
 			children = (
-				AA5B5496172EF6DD00793BED /* externals */,
 				AA29D6CB170B6CAD0069628A /* Might As Well */,
 				AA29D6C4170B6CAD0069628A /* Frameworks */,
 				AA29D6C3170B6CAD0069628A /* Products */,
+				AA5B552F17415F2900793BED /* EnkiUtilsFramework.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,33 +163,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AA5B5496172EF6DD00793BED /* externals */ = {
+		AA5B553017415F2900793BED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA5B5497172EF6E700793BED /* EnkiUtils */,
+				AA5B553417415F2900793BED /* EnkiUtilsFramework.framework */,
 			);
-			name = externals;
-			sourceTree = "<group>";
-		};
-		AA5B5497172EF6E700793BED /* EnkiUtils */ = {
-			isa = PBXGroup;
-			children = (
-				AA5B5498172EF73600793BED /* EnkiUnorderedController.h */,
-				AA5B5499172EF73600793BED /* EnkiUnorderedController.m */,
-				AA5B549A172EF73600793BED /* EnkiUtilities.h */,
-				AA5B549B172EF73600793BED /* EnkiUtilities.m */,
-				AA5B549C172EF73600793BED /* NSString+EnkiUtils.h */,
-				AA5B549D172EF73600793BED /* NSString+EnkiUtils.m */,
-				AA5B549E172EF73600793BED /* UIImage+EnkiUtils.h */,
-				AA5B549F172EF73600793BED /* UIImage+EnkiUtils.m */,
-				AA5B54A0172EF73600793BED /* UILabel+EnkiUtils.h */,
-				AA5B54A1172EF73600793BED /* UILabel+EnkiUtils.m */,
-				AA5B54A2172EF73600793BED /* UINavigationController+EnkiUtils.h */,
-				AA5B54A3172EF73600793BED /* UINavigationController+EnkiUtils.m */,
-				AA5B54A4172EF73600793BED /* UIScreen+EnkiUtils.h */,
-				AA5B54A5172EF73600793BED /* UIScreen+EnkiUtils.m */,
-			);
-			name = EnkiUtils;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +185,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AA5B553A1741604400793BED /* PBXTargetDependency */,
 			);
 			name = "Might As Well";
 			productName = "Might As Well";
@@ -235,12 +212,29 @@
 			mainGroup = AA29D6B9170B6CAD0069628A;
 			productRefGroup = AA29D6C3170B6CAD0069628A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AA5B553017415F2900793BED /* Products */;
+					ProjectRef = AA5B552F17415F2900793BED /* EnkiUtilsFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AA29D6C1170B6CAD0069628A /* Might As Well */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AA5B553417415F2900793BED /* EnkiUtilsFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			name = EnkiUtilsFramework.framework;
+			path = EnkiUtils.framework;
+			remoteRef = AA5B553317415F2900793BED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA29D6C0170B6CAD0069628A /* Resources */ = {
@@ -274,17 +268,18 @@
 				AA29D701170B713F0069628A /* MAWJump3ViewController.m in Sources */,
 				AA29D706170B715D0069628A /* MAWJump4ViewController.m in Sources */,
 				AA29D70B170B72650069628A /* MAWJump5ViewController.m in Sources */,
-				AA5B54A6172EF73600793BED /* EnkiUnorderedController.m in Sources */,
-				AA5B54A7172EF73600793BED /* EnkiUtilities.m in Sources */,
-				AA5B54A8172EF73600793BED /* NSString+EnkiUtils.m in Sources */,
-				AA5B54A9172EF73600793BED /* UIImage+EnkiUtils.m in Sources */,
-				AA5B54AA172EF73600793BED /* UILabel+EnkiUtils.m in Sources */,
-				AA5B54AB172EF73600793BED /* UINavigationController+EnkiUtils.m in Sources */,
-				AA5B54AC172EF73600793BED /* UIScreen+EnkiUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5B553A1741604400793BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EnkiUtils;
+			targetProxy = AA5B55391741604400793BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AA29D6CE170B6CAD0069628A /* InfoPlist.strings */ = {
@@ -361,7 +356,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Might As Well/Might As Well-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../src";
 				INFOPLIST_FILE = "Might As Well/Might As Well-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,7 +369,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Might As Well/Might As Well-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../src";
 				INFOPLIST_FILE = "Might As Well/Might As Well-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
