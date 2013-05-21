@@ -13,6 +13,7 @@
 #import "UIImage+EnkiUtils.h"
 #import "NSString+EnkiUtils.h"
 #import "UINavigationController+EnkiUtils.h"
+#import "EnkiUnorderedController.h"
 
 
 /*! \mainpage EnkiUtils
