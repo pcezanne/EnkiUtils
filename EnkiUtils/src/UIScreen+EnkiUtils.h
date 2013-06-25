@@ -18,5 +18,6 @@
 
 /** Returns YES if this is a Retina display. */
 - (BOOL)Enki_isRetina;
+- (BOOL)Enki_isFourInch;
 
 @end

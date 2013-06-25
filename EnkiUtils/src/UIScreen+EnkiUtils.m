@@ -15,4 +15,10 @@
     return [self respondsToSelector:@selector(displayLinkWithTarget:selector:)] && (self.scale == 2.0);
 }
 
+
+- (BOOL)Enki_isFourInch;
+{
+    return (([UIScreen mainScreen].bounds.size.height * [UIScreen mainScreen].scale) >= 1136.0f);
+}
+
 @end
