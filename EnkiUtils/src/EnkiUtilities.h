@@ -14,7 +14,7 @@
 #import "NSString+EnkiUtils.h"
 #import "UINavigationController+EnkiUtils.h"
 #import "EnkiUnorderedController.h"
-
+#import "NSMutableArray+EnkiUtils.h"
 
 /*! \mainpage EnkiUtils
 *

@@ -21,6 +21,8 @@
 		AA5B551D1741576700793BED /* UILabel+EnkiUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5B550B174155E900793BED /* UILabel+EnkiUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA5B551E1741576700793BED /* UINavigationController+EnkiUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5B550D174155E900793BED /* UINavigationController+EnkiUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA5B551F1741576700793BED /* UIScreen+EnkiUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5B550F174155E900793BED /* UIScreen+EnkiUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7EFEF5177B4C63005186CC /* NSMutableArray+EnkiUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7EFEF3177B4C63005186CC /* NSMutableArray+EnkiUtils.h */; };
+		AA7EFEF6177B4C63005186CC /* NSMutableArray+EnkiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7EFEF4177B4C63005186CC /* NSMutableArray+EnkiUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		AA5B550E174155E900793BED /* UINavigationController+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+EnkiUtils.m"; sourceTree = "<group>"; };
 		AA5B550F174155E900793BED /* UIScreen+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+EnkiUtils.h"; sourceTree = "<group>"; };
 		AA5B5510174155E900793BED /* UIScreen+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+EnkiUtils.m"; sourceTree = "<group>"; };
+		AA7EFEF3177B4C63005186CC /* NSMutableArray+EnkiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+EnkiUtils.h"; sourceTree = "<group>"; };
+		AA7EFEF4177B4C63005186CC /* NSMutableArray+EnkiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EnkiUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				AA5B550E174155E900793BED /* UINavigationController+EnkiUtils.m */,
 				AA5B550F174155E900793BED /* UIScreen+EnkiUtils.h */,
 				AA5B5510174155E900793BED /* UIScreen+EnkiUtils.m */,
+				AA7EFEF3177B4C63005186CC /* NSMutableArray+EnkiUtils.h */,
+				AA7EFEF4177B4C63005186CC /* NSMutableArray+EnkiUtils.m */,
 			);
 			name = src;
 			path = ../src;
@@ -134,6 +140,7 @@
 				AA5B551D1741576700793BED /* UILabel+EnkiUtils.h in Headers */,
 				AA5B551E1741576700793BED /* UINavigationController+EnkiUtils.h in Headers */,
 				AA5B551F1741576700793BED /* UIScreen+EnkiUtils.h in Headers */,
+				AA7EFEF5177B4C63005186CC /* NSMutableArray+EnkiUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +212,7 @@
 				AA5B5515174155E900793BED /* UILabel+EnkiUtils.m in Sources */,
 				AA5B5516174155E900793BED /* UINavigationController+EnkiUtils.m in Sources */,
 				AA5B5517174155E900793BED /* UIScreen+EnkiUtils.m in Sources */,
+				AA7EFEF6177B4C63005186CC /* NSMutableArray+EnkiUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
