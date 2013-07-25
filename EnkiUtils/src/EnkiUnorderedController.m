@@ -80,6 +80,8 @@
                          [self slideTarget:_current withDirection:direction];
                      }
                      completion:^(BOOL finished){
+                         [_cover.view removeFromSuperview];
+                         [_cover willMoveToParentViewController:nil];
                          [_cover removeFromParentViewController];
                          _cover = nil;
                      }];
@@ -113,10 +115,14 @@
                      completion:^(BOOL finished){
                          if (coverIt) {
                              if (_cover != nil) {
+                                 [_cover.view removeFromSuperview];
+                                 [_cover willMoveToParentViewController:nil];
                                  [_cover removeFromParentViewController];
                              }
                              _cover = target;
                          }else {
+                             [_current.view removeFromSuperview];
+                             [_current willMoveToParentViewController:nil];
                              [_current removeFromParentViewController];
                              _current = target;
                          }
